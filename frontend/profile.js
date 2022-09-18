@@ -30,7 +30,7 @@ window.onload=(loaded) =>{
         for(let i=0;i<data.length;i++){
           let tweet_id=data[i].id
           tweet.innerHTML+=`<div class="tweet-info">
-          <img src="images/profile.png" class="profile-in-tweet">
+          <img src="images/Jc9RL5o7_400x400.jpg" class="profile-in-tweet">
           <h3 id="fullname" class="name">${data[i].fullname}</h3>
           <h3 id="username" class="username">${data[i].username}</h3>
           <p id="time" class="time">${data[i].date_time}</p>
@@ -69,8 +69,8 @@ window.onload=(loaded) =>{
        .then(data =>{
 
         fname.innerHTML=`${data[0].fullname}`
-        usern.innerHTML=`@${data[0].username}`
-        reg_time.innerHTML=`${data[0].register_time}`
+        usern.innerHTML=`${data[0].username}`
+        reg_time.innerHTML=`joined on ${data[0].register_time}`
         
        }); 
 
