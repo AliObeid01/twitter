@@ -25,7 +25,7 @@ window.onload=(loaded) =>{
         for(let i=0;i<data.length;i++){
           let tweet_id=data[i].id
           tweet_layout.innerHTML+=`<div class="tweet-info">
-          <img src="images/profile.png" class="profile-in-tweet">
+          <img src="images/Jc9RL5o7_400x400.jpg" class="profile-in-tweet">
           <h3 id="fullname" class="name">${data[i].fullname}</h3>
           <h3 id="username" class="username">${data[i].username}</h3>
           <p id="time" class="time">${data[i].date_time}</p>
@@ -78,8 +78,6 @@ window.onload=(loaded) =>{
   return data;
 });
 }
-   
- 
 
  function add_tweet(data){
 
