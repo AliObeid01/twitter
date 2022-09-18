@@ -1,0 +1,394 @@
+/* index page styling */
+
+body{
+    margin: 0;
+    pad: 0;
+    background-color: white;
+    color: black;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+label{
+    font-size: larger;
+}
+/* .icon-div{
+    width: 10px;
+} */
+
+
+/* .sign-up-text{
+    flex: 4;
+    float: right;
+    border: solid;
+} */
+
+
+/* index.html: upper div */
+.upper-div{
+    display: flex;
+    margin-bottom: 10px;
+}
+.image-div{
+    flex: 1;
+}
+.right-div{
+    flex: 1;
+    margin: 5px;
+    padding: 10px 5px;
+}
+/* the image on the left */
+.wall-img{
+    width: 100%;
+}
+.logo-white{
+    width: 10%;
+}
+.signIn-div{
+    width: 80%;
+    margin-left: 10px;
+}
+.sign-btn{
+    width: 20%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 0;
+    background-color: rgb(29, 155, 240);
+    color: white;
+    border: solid;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 20px;
+}
+.frm{
+    margin: 5px 3px;
+    padding: 5px;
+}
+.inp{
+    width: 100%;
+    margin: auto;
+    padding: 5px 10px;
+    border: solid;
+    border-color: rgb(28, 154, 239);
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.index-footer{
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-top: 10px;
+}
+.footer-links{
+    width: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.footer-link{
+    text-decoration: none;
+    color: gray;
+    font-size: 13px;
+    font-weight: 50;
+    margin: 0 5px;
+    
+}
+.copy-rights{
+    width: fit-content;
+    margin: auto;
+}
+
+.footer-link:hover{
+    text-decoration: underline;
+}
+
+.sign-btn:hover{
+    cursor: pointer;
+    background-color: rgb(3, 16, 24);
+}
+
+/* responsiveness and media queries:  */
+
+
+/* home page */
+.home-main{
+    display: flex;
+}
+.home-navbar{
+    flex: 0.5;
+    border-right: solid;
+    border-color: grey;
+    padding-top: 10px;
+}
+.home-content{
+    flex: 2;
+    margin-left: 5px;
+    padding-top: 10px;
+}
+.search-div{
+    flex: 0.7;
+    border-left: solid gray;
+    padding-top: 10px;
+    padding: 0 10px;
+    align-items: center;
+    padding-top: 10px;
+}
+.inp-img{
+    display: none;
+}
+.home-navbar img, .write-tweet img{
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.nav-item{
+    display: flex;
+}
+.home-navbar h3{
+    font-size: 15px;
+    text-align: center;
+    justify-content: center;
+}
+.tweet-btn{
+    border: solid;
+    border-width: 1px;
+    border-radius: 15px;
+    border-color: white;
+    background-color: rgb(28, 154, 239);
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+}
+textarea{
+    border: none;
+}
+.write-tweet{
+    border-bottom: solid;
+    border-color: gray;
+    border-width: 1px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+}
+.tweet-btn:hover{
+    border-color: rgb(28, 154, 239);
+    background-color: white;
+    color: rgb(28, 154, 239);
+}
+.tweet-info{
+    display: flex;
+}
+.general-info{
+    margin-left: 10px;
+}
+.edit{
+    color: rgb(28, 154, 239);
+    padding-left: 20px;
+}
+.profile-img-div{
+    margin-left: 10px;
+}
+.profile-in-tweet{
+    flex: 1;
+    padding: 5px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 5px;
+    padding-right: 10px;
+}
+.name{
+    flex: 2;
+}
+.username{
+    flex: 2;
+    color: gray;
+}
+.time{
+    flex: 1;
+    color: gray;
+}
+.tweet-spn{
+    flex: 5;
+}
+
+.tweet-buttom{
+    display: flex;
+}
+.heart-like{
+    flex: 0.5;
+    width: 5px;
+}
+.nb-of-likes{
+    flex: 1;
+}
+.likes-span{
+    flex: 7;
+}
+.suggestion{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-suggestion-div{
+    flex: 1;
+}
+.img-suggestion-div > img{
+    width: 40px;
+}
+.suggested-name{
+    flex: 5;
+}
+
+.follow-suggestion{
+    flex: 1;
+    background-color: black;
+    color: white;
+    border: solid;
+    border-color: black;
+    border-radius: 10px;
+}
+.follow-suggestion:hover{
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border-color: black
+}
+.search-input{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px 0;
+    font-size: large;
+}
+.profile-content{
+    margin-left: 0;
+}
+.user-name{
+    margin-left: 10px;
+}
+.cover-img-upload{
+    width: 100%;
+}
+.img-profile-page{
+    width: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+}
+.set-profile-navbar{
+    display: flex;
+}
+.set-profile-navbar img{
+    width: 70%;
+}
+.set-profile-navbar .nav-item{
+    width: 7%;
+
+}
+.set-profile{
+    float: right;
+    margin-top: -150px;
+    width: 30%;
+    background-color: white;
+    border: solid rgb(28, 154, 239);
+    border-radius: 15px;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+
+.personal-nav{
+    border-bottom: solid gray;
+}
+.personal-nav .list{
+    list-style-type: none;
+}
+.list{
+    display: flex;
+}
+.personal-nav li{
+    flex: 1;
+}
+.profile-set-form{
+    padding: 30px;
+    margin: auto;
+}
+.inp-upload:hover{
+    background-color: rgb(28, 154, 239);
+    color: white;
+    cursor: pointer;
+}
+.save-chng{
+    width: 30%;
+    padding: 10px 0;
+    border: solid;
+    border-color: rgb(28, 154, 239);
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(28, 154, 239);
+    cursor: pointer;
+}
+.save-chng:hover{
+    border-color: rgb(28, 154, 239);
+    background-color: rgb(28, 154, 239);
+    color: white;
+}
+.actions{
+    float: right;
+    margin-top: -100px;
+}
+.action:hover{
+    cursor: pointer;
+}
+.action{
+    padding: 5px 10px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid;
+}
+.block{
+    color: red;
+    border-color: red;
+}
+.follow{
+    color: rgb(28, 154, 239);
+    border-color: rgb(28, 154, 239);
+}
+.block:hover{
+    background-color: red;
+    color: white;
+}
+.follow:hover{
+    background-color: rgb(28, 154, 239);
+    color: white;
+}
+@media screen and (max-width: 768px){
+    .upper-div{
+        display: block;
+    }
+    .right-div{
+        width: 100%;
+    }
+    .home-main{
+        display: block;
+    }
+    .list{
+        display: block;
+    }
+}
+input[type="file"] {
+    display: none;
+}
+.custom-file-upload {
+    border: 1px solid #ccc;
+    display: inline-block;
+    color:rgb(28, 154, 239);
+    padding: 4px 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
